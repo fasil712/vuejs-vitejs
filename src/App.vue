@@ -5,8 +5,10 @@ import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
+  <div class="flex">
+    <h1>Hello Fasil</h1>
+  </div>
   <img alt="Vue logo" src="./assets/logo.png" />
-  
   <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
@@ -18,5 +20,8 @@ import HelloWorld from './components/HelloWorld.vue';
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.flex {
+  background-color: red;
 }
 </style>
